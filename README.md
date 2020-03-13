@@ -30,7 +30,7 @@ _Check it out here:_ https://pdxbnb-76f3c.firebaseapp.com
 
 ## Installation
 
-  1. _`$ git clone https://github.com/AditModi/DataVisualization.git` _
+  1. _`$ git clone https://github.com/AditModi/DataVisualizationForTripPlanner.git` _
 
   2. _`$ cd PDXbnb`_
 
