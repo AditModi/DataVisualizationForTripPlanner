@@ -6,7 +6,7 @@
 
 _A website using data visualization to help users plan their trip to Portland or decide how much to list their property on Airbnb._
 
-_ It was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.5._
+
 
 _Check it out here:_ https://pdxbnb-76f3c.firebaseapp.com
 
