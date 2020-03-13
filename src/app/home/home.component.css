@@ -1,0 +1,50 @@
+/*#jumbotron1{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  font-family: 'Dosis', sans-serif;
+}*/
+
+h2 {
+  Font-Family: 'Droid Serif', Serif;
+}
+
+
+img {
+  position: relative;
+  width: 100%;
+  height: 600px;
+}
+
+h5 {
+  position: absolute;
+  top: 200px;
+  left: 0;
+  width: 100%;
+  padding-left: 450px;
+}
+
+h5 span {
+  color: white;
+  font: bold 24px/45px Helvetica, Sans-Serif;
+  letter-spacing: -1px;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.7);
+  padding: 10px;
+}
+
+#homeCards {
+  margin: 10
+}
+
+.btn {
+  border-radius: 17px;
+}
+
+.textColor {
+  color: deeppink;
+}
+
+.full-bg-img, .jumbotron {
+  background: -webkit-linear-gradient(top, #1e5799 0%,#000000 0%,#000000 0%,#000000 0%,#000000 0%,#000000 0%,#ffffff 100%);
+}

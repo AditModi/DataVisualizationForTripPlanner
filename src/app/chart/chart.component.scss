@@ -1,0 +1,42 @@
+p {
+  text-align: center;
+}
+
+#row1 {
+  padding-bottom: 30px;
+  margin: 10px;
+}
+
+#row2 {
+  padding-bottom: 30px;
+  margin: 10px;
+}
+
+#row3 {
+  padding-bottom: 15px;
+  margin: 10px;
+}
+
+#line-graph {
+  margin-bottom: 30px;
+  margin-top: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+h5 {
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+#footnote {
+  padding-top: 10px;
+}
+
+canvas, #fontLegend {
+  font-size: 30px !important;
+}
+
+.clickColor {
+  color: deeppink;
+}

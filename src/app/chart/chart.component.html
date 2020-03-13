@@ -1,0 +1,121 @@
+<div class="container" id="line-graph">
+  <h5><strong>Explore the average price by quadrant.<br><span class="clickColor">Click</span> on the labels in the legend below to exclude them from the chart.</strong></h5><br>
+  <canvas id="fontLegend" baseChart width="400" height="400"
+              [datasets]="lineChartData"
+              [labels]="lineChartLabels"
+              [options]="lineChartOptions"
+              [colors]="lineChartColors"
+              [legend]="lineChartLegend"
+              [chartType]="lineChartType"
+              (chartHover)="chartHovered($event)"
+              (chartClick)="chartClicked($event)"></canvas>
+</div>
+
+<div class="row" id="row1">
+  <div class="col-sm-6">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title"><strong>Average Room Price by Room Type</strong></h5>
+        <canvas baseChart
+                    [data]="doughnutChartData"
+                    [colors]="doughnutChartColors"
+                    [labels]="doughnutChartLabels"
+                    [options]="doughnutChartOptions"
+                    [chartType]="doughnutChartType"
+                    (chartHover)="chartHovered($event)"
+                    (chartClick)="chartClicked($event)"></canvas>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title"><strong>Average Room Price by Neighborhood: North Portland</strong></h5>
+        <canvas baseChart
+                [datasets]="nBarChartData"
+                [labels]="nBarChartLabels"
+                [colors]="nBarChartColors"
+                [options]="nBarChartOptions"
+                [legend]="nBarChartLegend"
+                [chartType]="nBarChartType"
+                (chartHover)="chartHovered($event)"
+                (chartClick)="chartClicked($event)"></canvas>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="row" id="row2">
+  <div class="col-sm-6">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title"><strong>Average Room Price by Neighborhood: Northwest</strong></h5>
+        <canvas baseChart
+                [datasets]="nwBarChartData"
+                [labels]="nwBarChartLabels"
+                [colors]="nwBarChartColors"
+                [options]="nwBarChartOptions"
+                [legend]="nwBarChartLegend"
+                [chartType]="nwBarChartType"
+                (chartHover)="chartHovered($event)"
+                (chartClick)="chartClicked($event)"></canvas>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title"><strong>Average Room Price by Neighborhood: Northeast</strong></h5>
+        <canvas baseChart
+                [datasets]="neBarChartData"
+                [labels]="neBarChartLabels"
+                [colors]="neBarChartColors"
+                [options]="neBarChartOptions"
+                [legend]="neBarChartLegend"
+                [chartType]="neBarChartType"
+                (chartHover)="chartHovered($event)"
+                (chartClick)="chartClicked($event)"></canvas>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="row" id="row3">
+  <div class="col-sm-6">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title"><strong>Average Room Price by Neighborhood: Southwest</strong></h5>
+        <canvas baseChart
+                [datasets]="swBarChartData"
+                [labels]="swBarChartLabels"
+                [colors]="swBarChartColors"
+                [options]="swBarChartOptions"
+                [legend]="swBarChartLegend"
+                [chartType]="swBarChartType"
+                (chartHover)="chartHovered($event)"
+                (chartClick)="chartClicked($event)"></canvas>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title"><strong>Average Room Price by Neighborhood: Southeast</strong></h5>
+        <canvas baseChart
+                [datasets]="barChartData"
+                [labels]="barChartLabels"
+                [colors]="barChartColors"
+                [options]="barChartOptions"
+                [legend]="barChartLegend"
+                [chartType]="barChartType"
+                (chartHover)="chartHovered($event)"
+                (chartClick)="chartClicked($event)"></canvas>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container" id="footnote">
+  <h5>Data reflects July 2016 through July 2017 (but is missing December 2016). <br>
+    A big thanks to Tom Slee for scrapping this data from Airbnb and providing it for open use. Airbnb is notoriously tight lipped when it comes to releasing its own data, and we believe the people of Portland and those who want to visit should have access to it. You can find all the data for Portland and other cities <a href="http://tomslee.net/airbnb-data">here.</a></h5>
+</div>
