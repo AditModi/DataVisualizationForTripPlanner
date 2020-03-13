@@ -1,4 +1,4 @@
-# PDXbnb
+# Data Visualization
 
 #### _By Kaila Goff, Maggie Summers, Hannah Lee & Stephanie Faber_
 
