@@ -50,7 +50,7 @@ export const firebaseConfig = {
     MDBBootstrapModule.forRoot(),
     ChartsModule,
     AgmCoreModule.forRoot({
-      apiKey: "AIzaSyAH-EFyZxLjZ9aNvB4GgyRltF3AWmYYeRA"
+      apiKey: "xxx"
     })
   ],
   schemas: [ NO_ERRORS_SCHEMA ],
